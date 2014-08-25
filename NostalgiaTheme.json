@@ -1,0 +1,586 @@
+{
+    "colors":{
+        "background": "",
+        "chat":{
+			"admin": "",
+            "ambassador": "#ff4fa6",
+            "bouncer": "#ff3030",
+            "cohost": "#f1721d",
+            "residentdj": "#4CB5FD",
+            "host": "#f1721d",
+            "manager": "#9830ff"
+        },
+        "footer": "",
+        "header": ""
+    },
+	
+    "css":{
+        "font": [],
+		
+        "import": [],
+		
+        "rule":{
+
+			"#chat .message:hover .timestamp":{
+				"color":"transparent",
+				"pointer-events":"none"
+			},
+
+			"#chat .text a:visited":{
+				"color":"#009cdd"
+			},
+
+			"#chat .message:hover, #chat .emote:hover, #chat .update:hover":{
+				"text-decoration":"none",
+				"-webkit-transition":"25ms linear 5ms",
+				"-moz-transition":"25ms linear 5ms",
+				"-o-transition":"25ms linear 5ms",
+				"transition":"25ms linear 5ms",
+				"border-width": "1px 3px",
+				"border-style": "solid",
+				"border-color": "#00FFFF",
+				"padding": "5px 2px 5px 25px"
+			},
+
+			"#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome":{
+				"border-radius":"20px;",
+				"background-color":"#0E0000;",
+				"margin-top":"2px;",
+				"-webkit-animation":"fadein 0.3s",
+				"-moz-animation":"fadein 0.3s",
+				"-ms-animation":"fadein 0.3s",
+				"-o-animation":"fadein 0.3s",
+				"animation":"fadein 0.3s"
+			},
+
+			"#chat .emote:nth-child(2n+1), #chat .mention:nth-child(2n+1), #chat .message:nth-child(2n+1), #chat .moderation:nth-child(2n+1), #chat .skip:nth-child(2n+1), #chat .update:nth-child(2n+1), #chat .welcome:nth-child(2n+1)":{
+				"border-radius":"20px;",
+				"background-color":"#111;",
+				"-webkit-animation":"fadein 0.3s",
+				"-moz-animation":"fadein 0.3s",
+				"-ms-animation":"fadein 0.3s",
+				"-o-animation":"fadein 0.3s",
+				"animation":"fadein 0.3s"
+			},
+
+			"#chat-messages":{
+			   "border":"none;"
+			},
+
+			"#chat .delete-button":{
+				"height": "16px",
+				"width": "16px",
+				"right": "12px",
+				"top": "6px",
+				"background": "url('http://i.imgur.com/r1Bbcv7.png') no-repeat scroll right center transparent"
+			},
+
+			"#chat .delete-button span":{
+				"color": "transparent",
+				"padding":"0px",
+				"display":"none"
+			},
+
+			"#chat .mention.is-staff":{
+			    "background-color":"rgba(99, 56, 121, 0.38) !important;",
+			    "border-width": "1px 3px",
+				"border-style": "solid",
+				"border-color": "#AC76FF"
+			},
+
+			"#chat .welcome":{
+			    "border-width": "1px 3px",
+				"border-style": "solid",
+				"border-color": "#AC76FF"
+			},
+
+"#chat .from .from": { "color": "#00cc00" 
+			},
+
+
+			"#chat .mention.is-you":{
+				"background-color":"rgba(245, 255, 0, 0.1) !important;"
+			},
+
+		   "@keyframes fadein":{
+			   "from {opacity":"0;}",
+			   "to {opacity":"1;}"
+			},
+
+			"@-moz-keyframes fadein":{
+			   "from {opacity":"0;}",
+			   "to {opacity":"1;}"
+			},
+
+			"@-webkit-keyframes fadein":{
+			   "from {opacity":"0;}",
+			   "to {opacity":"1;}"
+			},
+
+			"@-ms-keyframes fadein":{
+			   "from {opacity":"0;}",
+			   "to {opacity":"1;}"
+			},
+
+			"@-o-keyframes fadein":{
+			   "from {opacity":"0;}",
+			   "to {opacity":"1;}"
+			},
+
+			"#user-lists .list":{
+			   "-webkit-animation":"fadein 0.6s",
+			   "-moz-animation":"fadein 0.6s",
+			   "-ms-animation":"fadein 0.6s",
+			   "-o-animation":"fadein 0.6s",
+			   "animation":"fadein 0.6s"
+			},
+
+			"#chat .emoji":{
+			   "position":"absolute",
+			   "width":"16px",
+			   "height":"16px"
+			},
+
+			"#waitlist .list":{
+			   "-webkit-animation":"fadein 0.7s",
+			   "-moz-animation":"fadein 0.7s",
+			   "-ms-animation":"fadein 0.7s",
+			   "-o-animation":"fadein 0.7s",
+			   "animation":"fadein 0.7s"
+			},
+
+			"#header":{
+				"background-color": "rgba(31, 38, 64, 0.95) !important"
+            },
+
+			"#plug-menu":{
+                "background": "rgba(35, 35, 127, 0.75) !important"
+            },
+
+
+            "#plug-menu .legal":{
+                "background": "rgba(35, 35, 127, 0.85) !important"
+            },
+
+			 "#settings":{
+                "background": "rgba(40, 20, 0, 0.85) !important"
+            },
+
+            "#settings .header":{
+                "background": "rgba(40, 20, 0, 0.7) !important"
+            },
+
+			"#dj-button":{
+                "background": "rgba(40, 44, 53, 0.75) !important"
+            },
+
+            ".social-menu .icon-twitter,.social-menu .icon-facebook":{
+                "opacity": "8"
+            },
+
+			"#playlist-panel":{
+				"background" :"grey-transparent",
+				"opacity" : "0.9",
+				"text-shadow" : "1px -1px #000"
+			},
+
+			"#chat .text a:hover, a:focus":{
+				"text-decoration":"none",
+				"color":"#00DDDD",
+				"-webkit-transition":"200ms linear 0s",
+				"-moz-transition":"200ms linear 0s",
+				"-o-transition":"200ms linear 0s",
+				"transition":"200ms linear 0s",
+				"outline":"0 none",
+				"text-shadow":"-1px 1px 8px #0199DA, 1px -1px 8px #0199DA"
+			},
+
+			"#user-panel .actions .action:hover":{
+                "background": "linear-gradient(to right, rgba(38, 38, 38, 0.85) , rgba(50, 50, 50, 0.85), rgba(255, 255, 255, 0.05))"
+            },
+
+			"#user-panel":{
+                "background": "linear-gradient(to top,rgba(38, 38, 38, 0.85) 0,rgba(38, 38, 38, 0.85) 60%)"
+            },
+
+			".notification .left":{
+                "background": "linear-gradient(to top,rgba(34, 27, 77, 0.85) 0,rgba(34, 27, 77, 0.8) 100%)"
+            },
+
+            ".notification .right":{
+                "background": "linear-gradient(to top,rgba(50, 43, 92, 0.85) 0,rgba(50, 43, 92, 0.85) 100%)",
+				"top": "0px",
+				"height": "85px"
+            },
+
+			".header-panel-button.selected":{
+				"background":"linear-gradient(to bottom,rgba(15, 15, 30, 1) 0,rgba(25, 25, 50, 0.9) 70%);"
+			},
+
+			"#plug-dj":{
+				"background":"linear-gradient(to bottom,rgba(15, 15, 30, 1) 0,rgba(25, 25, 50, 1) 70%);"
+			},
+
+			"#curate i":{
+			   "background":"url(http://i.imgur.com/cXzfD4W.png);"
+			},
+
+			"#woot .bottom,#woot.selected":{
+				"background":"#25ab1f"
+			},
+
+			"#woot i":{
+			   "background":"url(http://i.imgur.com/DWuyuU5.png);"
+			},
+
+			"#meh i":{
+			   "background":"url(http://i.imgur.com/ys4dU6H.png);"
+			},
+			
+			"#user-panel .actions .action .icon":{
+				"background-repeat":"no-repeat",
+				"background-position":"center"
+			},
+			
+			"#user-lists .header .button .icon":{
+				"background-repeat":"no-repeat",
+				"background-position":"center"
+			},
+			
+			".icon-current-dj":{
+				"background":"url(http://i.imgur.com/0vi9iMD.gif);",
+				"background-repeat":"no-repeat",
+				"background-position":"center"
+			},
+
+			"#room-bar .favorite .icon-star-white":{
+				"background":"url(http://i.imgur.com/cDGfIsA.png);"
+			},
+
+			"#room-bar .favorite .icon-curate":{
+				"background":"url(http://i.imgur.com/hW1dyZ3.gif);"
+			},
+			
+			".favorite.selected":{
+				"opacity":"1 !important;"
+			},
+			
+			".favorite":{
+				"opacity":".2 !important;"
+			},
+			
+			".icon-plug-dj":{
+				"background":"url(http://i.imgur.com/i0OwDQE.png);"
+			},
+
+			".icon-emoji-on":{
+				"background":"url(http://i.imgur.com/HrxaIke.png);"
+			},
+
+			".icon-emoji-off":{
+				"background":"url(http://i.imgur.com/vOFY7pF.png);"
+			},
+
+			".icon-skip":{
+				"background":"url(http://i.imgur.com/bBHrdhI.gif);"
+			},
+
+			".icon-staff":{
+				"background":"url(http://i.imgur.com/8KzvDlN.png);"
+			},
+
+			".icon-import":{
+				"background":"url(http://i.imgur.com/FcguCzz.png);"
+			},
+
+			".icon-search":{
+				"background":"url(http://i.imgur.com/tedTheR.png);"
+			},
+
+			".icon-waitlist":{
+				"background":"url(http://i.imgur.com/iYULiP8.png);"
+			},
+
+			".icon-unlocked":{
+				"background":"url(http://i.imgur.com/clvmAmN.png);"
+			},
+
+			".icon-related":{
+				"background":"url(http://i.imgur.com/L5NI5P2.png);"
+			},
+
+			".icon-move-to-top":{
+				"background":"url(http://i.imgur.com/CsDuNP9.png);"
+			},
+
+			".icon-population":{
+				"background":"url(http://i.imgur.com/bg4utti.png);"
+			},
+
+			".icon-chat":{
+				"background":"url(http://i.imgur.com/Iv6NHkk.gif);"
+			},
+
+			".icon-timestamps-12":{
+				"background":"url(http://i.imgur.com/lTjJKnZ.png);"
+			},
+
+			".icon-timestamps-24":{
+				"background":"url(http://i.imgur.com/wwgqVe7.png);"
+			},
+
+			".icon-timestamps-off":{
+				"background":"url(http://i.imgur.com/StNk6zK.png);"
+			},
+			
+			".icon-ignored":{
+				"background":"url(http://i.imgur.com/CiMrpVz.png);"
+			},
+			
+			".icon-unignore":{
+				"background":"url(http://i.imgur.com/CiMrpVz.png);"
+			},
+			
+			".icon-ignore":{
+				"background":"url(http://i.imgur.com/GOlgUsI.png);"
+			},
+
+			".icon-join-waitlist":{
+				"background":"url(http://i.imgur.com/lIxDhzf.png);"
+			},
+
+			".icon-share":{
+				"background":"url(http://i.imgur.com/VRmghQi.png);"
+			},
+
+			".icon-leave-waitlist":{
+				"background":"url(http://i.imgur.com/O2caHqK.png);"
+			},
+
+			".icon-leave-booth":{
+				"background":"url(http://i.imgur.com/yg8ei29.gif);"
+			},
+
+			".icon-leave-booth-big":{
+				"background":"url(http://i.imgur.com/UNAyi2K.gif);"
+			},
+
+			".icon-drag-handle":{
+				"background":"url(http://i.imgur.com/zv1tOBZ.gif);"
+			},
+
+			".icon-import-big":{
+				"background":"url(http://i.imgur.com/Bl8P1m2.png);"
+			},
+
+			".icon-ban":{
+				"background":"url(http://i.imgur.com/PcxEZAj.png);"
+			},
+
+            ".icon-fan":{
+				"background":"url(http://i.imgur.com/TJFwyTN.png);",
+"background-repeat":"no-repeat",
+				"background-position":"center"
+			},
+
+			".icon-unfan":{
+				"background":"url(http://i.imgur.com/9LmIMRS.png);",
+"background-repeat":"no-repeat",
+				"background-position":"center"
+			},
+
+			".icon-next-track":{
+				"background":"url(http://i.imgur.com/tlL7R0K.png);"
+			},
+
+			".icon-chat-sound-on":{
+				"background":"url(http://i.imgur.com/OFVY95J.png);",
+				"background-repeat":"no-repeat",
+				"background-position":"center"
+			},
+
+			".icon-chat-sound-off":{
+				"background":"url(http://i.imgur.com/BfshCS1.png);",
+				"background-repeat":"no-repeat",
+				"background-position":"center"
+			},
+
+			".icon-mention-off":{
+				"background":"url(http://i.imgur.com/ScyLr4r.png);"
+			},
+
+			".icon-mention":{
+				"background":"url(http://i.imgur.com/m82nRvZ.png);"
+			},
+
+			".icon-chat-popout":{
+				"background":"url(http://i.imgur.com/EsJqqWd.png);"
+			},
+
+			".p3-s-clear":{
+				"background":"url(http://i.imgur.com/w12GNsA.gif);"
+			},
+
+			".icon-join-waitlist-big":{
+				"background":"url(http://i.imgur.com/PZGA17k.gif);",
+				"background-repeat":"no-repeat",
+				"background-position":"center"
+			},
+
+			".icon-leave-waitlist-big":{
+				"background":"url(http://i.imgur.com/E6edg2r.gif);",
+				"background-repeat":"no-repeat",
+				"background-position":"-30% 80%"
+			},
+
+			".icon-playlist":{
+				"background":"url(http://i.imgur.com/yMFcwhn.png);"
+			},
+
+			".icon-playlist-close":{
+				"background":"url(http://i.imgur.com/jvBs4SG.png);"
+			},
+
+			".icon-filter":{
+				"background":"url(http://i.imgur.com/2R0V4M7.png);"
+			},
+
+			".icon-dialog-close":{
+				"background":"url(http://i.imgur.com/7AUkNJO.png);"
+			},
+
+			".icon-invite":{
+				"background":"url(http://i.imgur.com/Kn8r8Wh.gif);",
+				"background-repeat":"no-repeat",
+				"background-position":"center"
+			},
+
+			".icon-volume-on":{
+				"background":"url(http://i.imgur.com/sv3kREE.png);"
+			},
+
+			".icon-volume-half":{
+				"background":"url(http://i.imgur.com/rWksSXP.png);"
+			},
+
+			".icon-volume-off":{
+				"background":"url(http://i.imgur.com/YgetMN1.png);"
+			},
+
+			".icon-volume-off-once":{
+				"background":"url(http://i.imgur.com/zzNzAAI.png) !important;"
+			},
+
+			".icon-time":{
+				"background":"url(http://i.imgur.com/CmWAGkU.gif);",
+				"background-repeat":"no-repeat",
+				"background-position":"center"
+			},			
+
+			".icon-edit-white":{
+				"background":"url(http://i.imgur.com/v3aagIA.png);"
+			},
+
+			".icon-delete":{
+				"background":"url(http://i.imgur.com/xzapEH0.png);"
+			},
+
+			".icon-active-circle":{
+				"background":"url(http://i.imgur.com/OElmnps.png);"
+			},
+
+			".icon-active-selected":{
+				"background":"url(http://i.imgur.com/fS8snoE.png);"
+			},
+
+			".icon-users":{
+				"background":"url(http://i.imgur.com/o0eaStj.png);"
+			},
+
+			".icon-room-history":{
+				"background":"url(http://i.imgur.com/GsafQIM.gif);"
+			},
+
+			".icon-room-history-row":{
+				"background":"url(http://i.imgur.com/P42AN9E.gif);"
+			},
+
+			".icon-shuffle":{
+				"background":"url(http://i.imgur.com/xNNmdqr.png);"
+			},
+
+			".icon-create-playlist":{
+				"background":"url(http://i.imgur.com/FgM9gqi.png);"
+			},
+
+			".icon-add":{
+				"background":"url(http://i.imgur.com/ud32izQ.png);"
+			},
+
+			".icon-store":{
+				"background":"url(http://i.imgur.com/FQd86Wr.png);"
+			},
+
+			".icon-back":{
+				"background":"url(http://i.imgur.com/4n5h12G.png);"
+			},
+
+			".icon-twitter":{
+				"background":"url(http://i.imgur.com/uZX7LGH.gif);"
+			},
+
+			".icon-facebook":{
+				"background":"url(http://i.imgur.com/qCiBtpH.gif);"
+			},
+
+			".icon-room":{
+				"background":"url(http://i.imgur.com/lKSWv3x.gif);"
+			},
+
+			".icon-facebook-selected":{
+				"background":"url(http://i.imgur.com/qCiBtpH.gif);"
+			},
+
+			".icon-twitter-selected":{
+				"background":"url(http://i.imgur.com/uZX7LGH.gif);"
+			},
+
+			"#plugcubed":{
+			   "background":"linear-gradient(to bottom,rgba(15, 15, 30, 1) 0,rgba(25, 25, 50, 0.85) 70%) !important;"
+			},
+
+			 "#footer":{
+                "background-color": "rgba(50, 50, 50, 0.9) !important;"
+            },
+
+			"#playback .background":{
+				"left":"-200px !important;"
+			},
+
+			"#playback .background img":{
+				"width":"900px !important;",
+				"height":"100px !important;"
+			}
+		}
+	},
+	
+    "images":{
+        "background": "http://i.imgur.com/SLi9PBj.png",
+        "booth": "http://i.imgur.com/E9CuFnN.png",
+        "icons":{
+            "admin": "http://i.imgur.com/eHblLn6.gif",
+            "ambassador": "http://i.imgur.com/YZ5Kei8.png",
+            "bouncer": "http://i.imgur.com/MEg3oBT.gif",
+            "cohost": "http://i.imgur.com/pfRS4zc.gif",
+            "residentdj": "http://i.imgur.com/3IgJzso.gif",
+            "host": "http://i.imgur.com/pfRS4zc.gif",
+            "manager": "http://i.imgur.com/AAJhrV9.gif"
+        },
+        "playback": "http://i.imgur.com/FgCKrlR.png"
+    },
+    "rules":{
+        "allowAutojoin": "false",
+        "allowAutorespond": "true",
+        "allowAutowoot": "true"
+    }
+}
